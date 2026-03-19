@@ -188,7 +188,6 @@ export const Experience = () => {
                           <h3 className="text-xl font-bold mb-1 group-hover:text-primary transition-colors">
                             {exp.title}
                           </h3>
-                          <p className="text-sm text-primary font-medium mb-2">{exp.subtitle}</p>
                           <div className="flex flex-wrap gap-3 text-sm text-muted-foreground">
                             <span className="flex items-center gap-1.5">
                               <Briefcase className="h-4 w-4" />
