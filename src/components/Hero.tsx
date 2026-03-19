@@ -33,6 +33,8 @@ export const Hero = () => {
   const springConfig = { damping: 25, stiffness: 150 };
   const x = useSpring(useTransform(mouseX, [0, 1], [-20, 20]), springConfig);
   const y = useSpring(useTransform(mouseY, [0, 1], [-20, 20]), springConfig);
+  const negativeX = useTransform(x, (v) => -v);
+  const negativeY = useTransform(y, (v) => -v);
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
@@ -81,7 +83,7 @@ export const Hero = () => {
           transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
         />
         <motion.div
-          style={{ x: useTransform(x, v => -v), y: useTransform(y, v => -v) }}
+          style={{ x: negativeX, y: negativeY }}
           className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] rounded-full blur-[100px]"
           animate={{
             background: [
