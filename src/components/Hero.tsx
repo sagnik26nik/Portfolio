@@ -276,7 +276,7 @@ export const Hero = () => {
             size="lg"
             className="px-8 glass-card border-border/50 hover:border-primary/50 hover:bg-primary/5"
           >
-            <a href="/Nik_s_Resume_2026.pdf" download>
+            <a href="/Resume_2026.pdf" download>
               Download Resume
             </a>
           </Button>
