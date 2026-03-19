@@ -103,13 +103,11 @@ export const Navbar = () => {
               </AnimatePresence>
             </Button>
 
-            <Button
-              variant="outline"
-              size="sm"
-              className="hidden sm:flex items-center gap-2 gradient-border bg-background hover:bg-secondary"
-            >
-              <Download className="h-4 w-4" />
-              Resume
+            <Button asChild variant="outline" size="sm" className="hidden sm:flex items-center gap-2 gradient-border bg-background hover:bg-secondary">
+              <a href="/Nik_s_Resume_2026.pdf" download>
+                <Download className="h-4 w-4" />
+                Resume
+              </a>
             </Button>
 
             {/* Mobile Menu Toggle */}
