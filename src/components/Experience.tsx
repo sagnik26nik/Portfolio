@@ -5,12 +5,24 @@ import { Briefcase, Calendar, MapPin, Award } from "lucide-react";
 
 const experiences = [
   {
+    title: "Software Engineering Intern",
+    company: "Major Appliance Experience, The Home Depot",
+    location: "Atlanta, GA",
+    period: "May 2026 - Jul 2026",
+    achievements: [
+      "Engineered custom React event hooks and federated GraphQL query routing across distributed micro-frontend slots within a core platform processing millions of weekly visits; eliminated legacy state bottlenecks to dynamically sync multi-SKU inventory data",
+      "Architected an enterprise RAG data pipeline using LLM embeddings to semantically parse unstructured vendor specifications into deterministic JSON metadata; accelerated cross-SKU compatibility while boosting BugBear E2E regression to a 94% success baseline"
+    ],
+    techStack: ["React", "GraphQL", "RAG", "LLM Embeddings", "JSON", "Micro-frontends", "E2E"],
+    color: "from-amber-500 to-orange-600"
+  },
+  {
     title: "Graduate Research Assistant",
     company: "National Science Foundation - Computer Science Department at Georgia State University", 
     location: "Atlanta, GA",
-    period: "Aug 2025 - Present",
+    period: "Aug 2025 - May 2026",
     achievements: [
-      "Architected Flask/PostgreSQL platform serving 2K+ institutions processing 100K+ submissions, decomposed monolithic schema into 3NF model reducing latency p50 40% (420ms→250ms) and p95 88% (1.2s→140ms) via composite B-tree indexes",
+      "Architected Flask/PostgreSQL platform serving 2K+ institutions processing 100K+ daily submissions, decomposed monolithic schema into 3NF model reducing latency p50 40% (420ms→250ms) and p95 88% (1.2s→140ms) via composite B-tree indexes",
       "Engineered PostGIS R-tree spatial engine with Douglas-Peucker simplification achieving sub-100ms GeoJSON rendering, deployed Gunicorn (4 workers) behind Nginx with ETL pipeline reducing full-table scans 45%→7% via strategic indexing"
     ],
     techStack: ["Flask", "PostgreSQL", "PostGIS", "Python", "3NF", "B-tree", "Nginx", "Gunicorn"],

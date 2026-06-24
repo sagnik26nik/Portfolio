@@ -116,7 +116,7 @@ export const Hero = () => {
             <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
           </motion.span>
           <span className="text-sm font-medium text-foreground/80">
-            Open to Summer 2026 Internships
+            Open to Fall 2026 Internships
           </span>
           <Sparkles className="h-4 w-4 text-primary animate-pulse" />
         </motion.div>
@@ -198,7 +198,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.7 }}
           className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-primary/10 to-accent/10 border border-primary/20 mb-8"
         >
-          <span className="text-sm font-semibold text-foreground">MSCS'27</span>
+          <span className="text-sm font-semibold text-foreground">MSCS'26</span>
           <span className="text-muted-foreground">@</span>
           <span className="text-sm font-medium gradient-text">Georgia State University</span>
           <span className="text-muted-foreground">•</span>

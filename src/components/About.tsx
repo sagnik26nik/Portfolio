@@ -972,7 +972,7 @@ export const About = () => {
               >
                 <Sparkles className="h-5 w-5 text-primary" />
                 <span className="font-medium">
-                  Seeking <span className="text-primary">Summer 2026</span> Software Engineering Internships
+                  <span className="text-primary">Seeking Fall 2026 Software Engineering Internships </span>
                 </span>
               </motion.div>
             </motion.div>
